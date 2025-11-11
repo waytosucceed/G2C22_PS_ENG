@@ -129,7 +129,7 @@
               "sound": "./assests/sounds/option/noon.mp3"
             }
           ],
-          "answer": 3,
+          "answer": 2,
           "explanation": "'Look' has a short 'oo' sound, while 'spoon', 'room', and 'noon' all have a long 'oo' sound."
         },
         {
@@ -269,7 +269,7 @@
         {
           "questionNo": 11,
           "question": "Which word has a different 'o' sound from the others?<br>",
-          "questionSound":"./assests/sounds/question/good.mp3",
+          
           "options": [
             {
               "text": "rock",
@@ -298,6 +298,7 @@
         {
           "questionNo": 12,
           "question": "Which word has the same 'oo' sound as 'good'?",
+          "questionSound":"./assests/sounds/question/good.mp3",
           "options": [
             {
               "text": "spoon",
@@ -354,7 +355,7 @@
             {
               "text": "Spoon",
               "image": "./assests/images/option/47.jpg",
-              "sound": "./assests/sounds/option/spoon.mp3"
+              "sound": ""
             },
             {
               "text": "Spawn",
@@ -512,6 +513,57 @@
           ],
           "answer": 1,
           "explanation": "The word that rhymes with 'son' is 'fun.' Rhyming words sound similar at the end. Both 'son' and 'fun' end with the same sound, 'un'."
+        },
+        {
+          "questionNo": 21,
+          "question": "What does the word hidden mean?",
+          "questionSound":"",
+          "options": [
+            {
+              "text": "Something easily seen or open "
+            },
+            {
+              "text": "Something kept out of sight or covered "
+            },
+            {
+              "text": "Something shiny or bright"
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "questionNo": 22,
+          "question": "The word flapped means:",
+          "questionSound":"",
+          "options": [
+            {
+              "text": "To move something quickly, like wings "
+            },
+            {
+              "text": "To walk slowly and quietly "
+            },
+            {
+              "text": "To jump high into the air"
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "questionNo": 23,
+          "question": "Choose the correct sentence using beside.",
+          "questionSound":"",
+          "options": [
+            {
+              "text": "My cat sleeps beside me every night."
+            },
+            {
+              "text": "My cat sleeps besides me every night. "
+            },
+            {
+              "text": "My cat beside me every night."
+            }
+          ],
+          "answer": 0
         }
       ]
     }

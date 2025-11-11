@@ -114,7 +114,7 @@
       }
     </style>
     <script>
-      const uniqueKey = 2_22;
+      const uniqueKey = "O vs OO words";
       const data = JSON.parse(localStorage.getItem(uniqueKey)) || {};
       console.log(data, "dataindex");
 
@@ -138,7 +138,7 @@
         topics.forEach((topic) => {
           const button = document.createElement("button");
           button.className = "btn btn-primary btn-large";
-          button.innerText = topic.heading;
+          button.innerText = "Click To Start!";
           button.onclick = () => {
             window.location.href = `questions.html?topic=${encodeURIComponent(
               topic.heading
